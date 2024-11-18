@@ -1,0 +1,17 @@
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\bin\Debug\net8.0\Core.deps.json
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\bin\Debug\net8.0\Core.dll
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\bin\Debug\net8.0\Core.pdb
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\bin\Debug\net8.0\Database.dll
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\bin\Debug\net8.0\Database.pdb
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\obj\Debug\net8.0\Core.csproj.Up2Date
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\obj\Debug\net8.0\Core.dll
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\obj\Debug\net8.0\refint\Core.dll
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\obj\Debug\net8.0\Core.pdb
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Domain\obj\Debug\net8.0\ref\Core.dll

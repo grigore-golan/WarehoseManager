@@ -1,0 +1,27 @@
+﻿@using Core.Models
+
+<MudDialog>
+    <DialogContent>
+        <MudText Typo="Typo.h6">Enter Sku</MudText>
+        <MudTextField @bind-Value="Product.Sku" Label="Sku" />
+
+        <MudText Typo="Typo.h6">Enter Product Name</MudText>
+        <MudTextField @bind-Value="Product.Name" Label="Product Name" />
+
+        <MudText Typo="Typo.h6">Enter Quantity</MudText>
+        <MudNumericField @bind-Value="Product.Quantity" Label="Quantity" Min="0" />
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Submit" Color="Color.Primary">OK</MudButton>
+        <MudButton OnClick="Cancel" Color="Color.Secondary">Cancel</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter] public MudDialogInstance MudDialog { get; set; } = new();
+
+    public Product Product { get; set; } = new();
+
+    private void Submit() => MudDialog.Close(DialogResult.Ok(Product));
+    private void Cancel() => MudDialog.Cancel();
+}

@@ -1,0 +1,33 @@
+﻿@using Core.Models
+
+<MudDialog>
+    <DialogContent>
+        <MudText Typo="Typo.h6">Enter Reason</MudText>
+        <MudTextField @bind-Value="InventoryAdjustment.Reason" Label="Reason" />
+
+        <MudText Typo="Typo.h6">Enter Quantity</MudText>
+        <MudNumericField @bind-Value="InventoryAdjustment.Quantity" Label="Quantity" Min="0" />
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Submit" Color="Color.Primary">OK</MudButton>
+        <MudButton OnClick="Cancel" Color="Color.Secondary">Cancel</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter] public MudDialogInstance MudDialog { get; set; } = new();
+
+    [Parameter] public string Sku { get; set; } = string.Empty;
+
+    private InventoryAdjustment InventoryAdjustment { get; set; } = new();
+
+    protected override void OnInitialized()
+    {
+        InventoryAdjustment.Sku = Sku;
+
+        base.OnInitialized();
+    }
+
+    private void Submit() => MudDialog.Close(DialogResult.Ok(InventoryAdjustment));
+    private void Cancel() => MudDialog.Cancel();
+}

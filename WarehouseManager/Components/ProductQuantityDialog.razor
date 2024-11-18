@@ -1,0 +1,19 @@
+﻿<MudDialog>
+    <DialogContent>
+        <MudText Typo="Typo.h6">Enter Quantity</MudText>
+        <MudNumericField @bind-Value="Quantity" Label="Quantity" Min="1" />
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Submit" Color="Color.Primary">OK</MudButton>
+        <MudButton OnClick="Cancel" Color="Color.Secondary">Cancel</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter] public MudDialogInstance MudDialog { get; set; } = new();
+
+    [Parameter] public int Quantity { get; set; }
+
+    private void Submit() => MudDialog.Close(DialogResult.Ok(Quantity));
+    private void Cancel() => MudDialog.Cancel();
+}

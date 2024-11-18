@@ -1,0 +1,15 @@
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\bin\Debug\net8.0\Database.deps.json
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\bin\Debug\net8.0\Database.dll
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\bin\Debug\net8.0\Database.pdb
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\obj\Debug\net8.0\Database.csproj.AssemblyReference.cache
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\obj\Debug\net8.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\obj\Debug\net8.0\Database.AssemblyInfoInputs.cache
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\obj\Debug\net8.0\Database.AssemblyInfo.cs
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\obj\Debug\net8.0\Database.csproj.CoreCompileInputs.cache
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\obj\Debug\net8.0\Database.csproj.Up2Date
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\obj\Debug\net8.0\Database.dll
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\obj\Debug\net8.0\refint\Database.dll
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\obj\Debug\net8.0\Database.pdb
+C:\Users\grigo\Masterat\ASS\WarehouseManager\Database\obj\Debug\net8.0\ref\Database.dll

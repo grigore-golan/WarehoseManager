@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\grigo\\Masterat\\ASS\\WarehouseManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0091701-B02B-47F1-9518-F51750301911}|WarehouseManager\\WarehouseManager.csproj|c:\\users\\grigo\\masterat\\ass\\warehousemanager\\warehousemanager\\components\\adjustinventorydialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0091701-B02B-47F1-9518-F51750301911}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\components\\adjustinventorydialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0091701-B02B-47F1-9518-F51750301911}|WarehouseManager\\WarehouseManager.csproj|c:\\users\\grigo\\masterat\\ass\\warehousemanager\\warehousemanager\\components\\pages\\productdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0091701-B02B-47F1-9518-F51750301911}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\components\\pages\\productdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0091701-B02B-47F1-9518-F51750301911}|WarehouseManager\\WarehouseManager.csproj|c:\\users\\grigo\\masterat\\ass\\warehousemanager\\warehousemanager\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0091701-B02B-47F1-9518-F51750301911}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0091701-B02B-47F1-9518-F51750301911}|WarehouseManager\\WarehouseManager.csproj|c:\\users\\grigo\\masterat\\ass\\warehousemanager\\warehousemanager\\services\\iwarehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0091701-B02B-47F1-9518-F51750301911}|WarehouseManager\\WarehouseManager.csproj|solutionrelative:warehousemanager\\services\\iwarehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BA6F6EF-228D-4177-9C27-45C0026B6CF7}|Domain\\Core.csproj|c:\\users\\grigo\\masterat\\ass\\warehousemanager\\domain\\producteventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BA6F6EF-228D-4177-9C27-45C0026B6CF7}|Domain\\Core.csproj|solutionrelative:domain\\producteventstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BA6F6EF-228D-4177-9C27-45C0026B6CF7}|Domain\\Core.csproj|c:\\users\\grigo\\masterat\\ass\\warehousemanager\\domain\\events\\productevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BA6F6EF-228D-4177-9C27-45C0026B6CF7}|Domain\\Core.csproj|solutionrelative:domain\\events\\productevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IWarehouseService.cs",
+              "DocumentMoniker": "C:\\Users\\grigo\\Masterat\\ASS\\WarehouseManager\\WarehouseManager\\Services\\IWarehouseService.cs",
+              "RelativeDocumentMoniker": "WarehouseManager\\Services\\IWarehouseService.cs",
+              "ToolTip": "C:\\Users\\grigo\\Masterat\\ASS\\WarehouseManager\\WarehouseManager\\Services\\IWarehouseService.cs",
+              "RelativeToolTip": "WarehouseManager\\Services\\IWarehouseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:56:36.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{79664857-03bf-4bca-aa54-ec998b3328f8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdjustInventoryDialog.razor",
+              "DocumentMoniker": "C:\\Users\\grigo\\Masterat\\ASS\\WarehouseManager\\WarehouseManager\\Components\\AdjustInventoryDialog.razor",
+              "RelativeDocumentMoniker": "WarehouseManager\\Components\\AdjustInventoryDialog.razor",
+              "ToolTip": "C:\\Users\\grigo\\Masterat\\ASS\\WarehouseManager\\WarehouseManager\\Components\\AdjustInventoryDialog.razor",
+              "RelativeToolTip": "WarehouseManager\\Components\\AdjustInventoryDialog.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T14:53:23.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductEventStore.cs",
+              "DocumentMoniker": "C:\\Users\\grigo\\Masterat\\ASS\\WarehouseManager\\Domain\\ProductEventStore.cs",
+              "RelativeDocumentMoniker": "Domain\\ProductEventStore.cs",
+              "ToolTip": "C:\\Users\\grigo\\Masterat\\ASS\\WarehouseManager\\Domain\\ProductEventStore.cs",
+              "RelativeToolTip": "Domain\\ProductEventStore.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:04:53.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductEvent.cs",
+              "DocumentMoniker": "C:\\Users\\grigo\\Masterat\\ASS\\WarehouseManager\\Domain\\Events\\ProductEvent.cs",
+              "RelativeDocumentMoniker": "Domain\\Events\\ProductEvent.cs",
+              "ToolTip": "C:\\Users\\grigo\\Masterat\\ASS\\WarehouseManager\\Domain\\Events\\ProductEvent.cs",
+              "RelativeToolTip": "Domain\\Events\\ProductEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:04:12.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Products.razor",
+              "DocumentMoniker": "C:\\Users\\grigo\\Masterat\\ASS\\WarehouseManager\\WarehouseManager\\Components\\Pages\\Products.razor",
+              "RelativeDocumentMoniker": "WarehouseManager\\Components\\Pages\\Products.razor",
+              "ToolTip": "C:\\Users\\grigo\\Masterat\\ASS\\WarehouseManager\\WarehouseManager\\Components\\Pages\\Products.razor",
+              "RelativeToolTip": "WarehouseManager\\Components\\Pages\\Products.razor",
+              "ViewState": "AgIAACgAAAAAAAAAAAAhwDMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T11:27:27.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDetails.razor",
+              "DocumentMoniker": "C:\\Users\\grigo\\Masterat\\ASS\\WarehouseManager\\WarehouseManager\\Components\\Pages\\ProductDetails.razor",
+              "RelativeDocumentMoniker": "WarehouseManager\\Components\\Pages\\ProductDetails.razor",
+              "ToolTip": "C:\\Users\\grigo\\Masterat\\ASS\\WarehouseManager\\WarehouseManager\\Components\\Pages\\ProductDetails.razor",
+              "RelativeToolTip": "WarehouseManager\\Components\\Pages\\ProductDetails.razor",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T11:22:30.201Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+﻿@page "/products"
+
+@using Core.Models
+@using MudBlazor
+@using WarehouseManager.Services
+
+<MudTable Items="products" Hover="true" Striped="true">
+    <HeaderContent>
+        <MudTh>Sku</MudTh>
+        <MudTh>Product Name</MudTh>
+        <MudTh>Quantity</MudTh>
+        <MudTh>Actions</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Sku">
+            <MudLink Href="@($"/product/{context.Sku}")">@context.Sku</MudLink>
+        </MudTd>
+        <MudTd DataLabel="Product Name">@context.Name</MudTd>
+        <MudTd DataLabel="Quantity">@context.Quantity</MudTd>
+        <MudTd DataLabel="Actions">
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@(async () => await ShowReceiveDialog(context))">Receive</MudButton>
+            <MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick="@(async () => await ShowShipDialog(context))">Ship</MudButton>
+        </MudTd>
+    </RowTemplate>
+</MudTable>
+
+<br />
+
+<MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@CreateProduct">Add Product</MudButton>
+
+@code {
+    [Inject] private IWarehouseService WarehouseService { get; set; } = null!;
+    [Inject] private IDialogService DialogService { get; set; } = null!;
+
+    private List<Product> products = [];
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadData();
+    }
+
+    private async Task LoadData()
+    {
+        products = (await WarehouseService.GetAllProductsAsync())?.ToList() ?? [];
+    }
+
+    private async Task ShowReceiveDialog(Product product)
+    {
+        var parameters = new DialogParameters
+        {
+            { "Quantity", 1 }
+        };
+
+        var options = new DialogOptions
+        {
+            CloseButton = true,
+            MaxWidth = MaxWidth.Medium
+        };
+
+        var dialog = DialogService.Show<ProductQuantityDialog>("Receive Product", parameters, options);
+
+        var result = await dialog.Result;
+        if (!result.Canceled)
+        {
+            int quantity = (int)result.Data;
+            await WarehouseService.ReceiveProductAsync(product.Sku, quantity);
+        }
+        await LoadData();
+    }
+
+    private async Task ShowShipDialog(Product product)
+    {
+        var parameters = new DialogParameters
+        {
+            { "Quantity", 1 }
+        };
+
+        var options = new DialogOptions
+        {
+            CloseButton = true,
+            MaxWidth = MaxWidth.Medium
+        };
+
+        var dialog = DialogService.Show<ProductQuantityDialog>("Ship Product", parameters, options);
+
+        var result = await dialog.Result;
+        if (!result.Canceled)
+        {
+            int quantity = (int)result.Data;
+            await WarehouseService.ShipProductAsync(product.Sku, quantity);
+        }
+        await LoadData();
+    }
+
+    private async Task CreateProduct()
+    {
+        var options = new DialogOptions
+            {
+                CloseButton = true,
+                MaxWidth = MaxWidth.Medium
+            };
+
+        var dialog = DialogService.Show<CreateProductDialog>("Create Product", options);
+
+        var result = await dialog.Result;
+        if (!result.Canceled)
+        {
+            var product = (Product)result.Data;
+            await WarehouseService.CreateProductAsync(product);
+        }
+        await LoadData();
+    }
+}
