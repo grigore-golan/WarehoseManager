@@ -1,4 +1,20 @@
-.vs
-bin
-obj
+# Visual Studio specific
+.vscode/
+.vs/
 *.user
+*.suo
+*.cache
+
+# ASP.NET files
+*.dbmdl
+*.dbproj.schemaview
+
+# Blazor specific
+bin/
+obj/
+*.nupkg
+*.nuspec
+
+# Build directories
+/build/
+out/
