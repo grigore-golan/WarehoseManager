@@ -40,7 +40,7 @@ internal class ProductEventStore(EventsContext dbContext) : IEventStore<ProductE
         {
             Sku = @event.Sku,
             EventType = @event.GetType().Name!,
-            EventData = JsonSerializer.Serialize(@event, Type.GetType($"{typeof(ProductEvent).Namespace}.{@event.GetType().Name!}"))
+            EventData = JsonSerializer.Serialize(@event, Type.GetType($"{typeof(ProductEvent).Namespace}.{@event.GetType().Name}")!)
         };
         return serializedEvent;
     }
